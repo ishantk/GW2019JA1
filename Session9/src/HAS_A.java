@@ -14,7 +14,6 @@
  		adrsLine
  		city
  		state
- 	
  */
 
 class Customer{
@@ -35,6 +34,7 @@ class Customer{
 	}
 	// Parmeterized Constructor : To write data in Object at the time of creation
 	// Inputs of Constructor is property of Constructor
+	// Customer(String name, String phone, String email, Address adrs){
 	Customer(String name, String phone, String email, Address[] adrs){
 		this.name = name;
 		this.phone = phone;
@@ -65,7 +65,7 @@ class Customer{
 		for(Address a : adrs){
 			a.showAddressDetails();
 		}
-	}
+    }
 }
 
 class Address{

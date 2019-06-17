@@ -35,6 +35,14 @@ public class NDArrays {
 		}
 		System.out.println("=======");
 		
+		System.out.println("=======");
+		for(int[] ar : arr){
+			for(int elm : ar){
+				System.out.print(elm+"  ");
+			}
+			System.out.println();
+		}
+		System.out.println("=======");
 
 		int[][][] array = {
 							{
