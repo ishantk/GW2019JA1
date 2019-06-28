@@ -32,6 +32,9 @@ public class StringConversions {
 		}else{
 			System.out.println(">> n1 != n3");
 		}
+	
+		String name = "John";
+		name = "Jennie"; // Update Operation
 		
 	}
 
